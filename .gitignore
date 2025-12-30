@@ -10,11 +10,48 @@ compile_commands.json
 # Build directories
 build/
 
+# VS Code
+.vscode/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
 # Executables
 HelloCpp
 *.exe
 *.out
 *.app
 
-# VS Code
-.vscode/
+# debug information files
+*.dwo
